@@ -12,7 +12,7 @@ body{
     color: whitesmoke;
 }
 .hero{
-    background-image: url("images/warri-hero.jpg");
+    background-image: url("warri-hero.jpg");
     background-size: cover;
     padding: 100px 100px;
     display: flex;
