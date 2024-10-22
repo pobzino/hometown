@@ -1,0 +1,105 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+body{
+    margin: 0 0 0 0;
+    font-family: "Bebas Neue", sans-serif;
+    color: whitesmoke;
+}
+.hero{
+    background-image: url("images/warri-hero.jpg");
+    background-size: cover;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    color: white;
+}
+.heading{
+    font-size: 3.5rem;
+    text-shadow: 5px 5px 2px #354E36;
+    background-color: darkgreen;
+    margin-bottom: 0;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+.subheading{
+    font-size: 1.8rem;
+    text-shadow: 5px 5px 5px black;
+    background-color: darkgray;
+    padding: 3px 10px;
+    width: fit-content;
+    margin-top: 5px;
+    border-radius: 7px;
+    
+}
+.our-activities{
+    text-align: center; 
+    padding: 10px;
+    background: linear-gradient(#F1FAEE, white);
+    
+}
+.activity-photos{
+    width: 150px;
+    border: 1px solid whitesmoke;
+}
+.activities{
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+}
+.tour-section{
+    padding: 25px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity-text{
+    text-shadow: 1px 1px 5px white;
+    color: #354E36;
+    display: flex;
+    flex-direction: column;
+}
+.guide-card{
+    width: 400px;
+    background-color: #4A7137;
+    height: 290px;
+    display: flex;
+    gap: 10px;   
+    padding: 15px 30px;
+    box-shadow: 5px 10px 10px black;
+    border-radius: 10px;
+    border-bottom: 10px solid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.guide-photo{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+h3{
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 10px black;
+}
+p{
+    font-size: 1.2rem;
+    color: grey;
+    text-shadow: 1px 1px 1px white;
+}
+h4{
+   font-size: 1.8rem; 
+}
+.activity-title{
+    margin-bottom: 0px;
+}
